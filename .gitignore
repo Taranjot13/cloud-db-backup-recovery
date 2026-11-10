@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local database dumps
+backups/
+*.dump
+*.sql
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
